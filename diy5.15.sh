@@ -46,3 +46,4 @@ git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 # git clone https://github.com/yichya/luci-app-xray.git package/luci-app-xray
  find ./ | grep Makefile | grep xray-plugin | xargs rm -f
 svn co https://github.com/sbwml/openwrt_helloworld/trunk/xray-plugin package/xray-plugin
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
